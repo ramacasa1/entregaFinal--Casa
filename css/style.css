@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+}
+.header ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  transition: 0.4s;
+}
+
+.logo-header {
+  height: 100px;
+}
+
+.nav-link:hover {
+  color: grey;
+}
+
+footer hr {
+  margin-top: 80px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.redes img {
+  width: 90px;
+  height: 90px;
+}
+
+main img {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  object-fit: cover;
+}
+
+.cards-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  width: 30%;
+  transition: 0.4s;
+  margin: 40px;
+}
+.cards .text-cards h2 {
+  color: white;
+  font-size: 20px;
+}
+.cards .text-cards p {
+  color: white;
+  font-size: 14px;
+  text-align: justify;
+  align-items: center;
+}
+
+.cards-div {
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+  gap: 30px;
+}
+.cards-div img {
+  width: 50%;
+  height: 550px;
+  border-radius: 5px;
+  transition: 0.4s;
+  transform: skew(1deg, -13deg);
+  object-fit: cover;
+}
+
+img {
+  margin: 30px;
+  height: 800px;
+}
+
+.shows-america {
+  display: flex;
+  justify-content: space-evenly;
+}
+.shows-america .america {
+  display: flex;
+  flex-direction: column;
+}
+.shows-america img {
+  width: 30%;
+  justify-content: left;
+}
+
+.lugares {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: white;
+  margin-top: 45px;
+}
+.lugares .lugares-text {
+  color: white;
+  gap: 40px;
+}
+
+hr {
+  margin-top: 13px;
+}
+
+.grilla {
+  min-height: 100vh;
+  max-height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "area1 area1 area2 area2" "area3 area3 area2 area2" "area3 area3 area4 area4" "area5 area5 area4 area4" "area5 area5 area6 area6" "area7 area7 area6 area6" "area7 area7 area8 area8" "area9 area10 area11 area12";
+  gap: 10px;
+  padding: 10px;
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.caja img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.c1 {
+  grid-area: area1;
+  transition: 0.4s;
+}
+.c1:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c2 {
+  grid-area: area2;
+  transition: 0.4s;
+}
+.c2:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c3 {
+  grid-area: area3;
+  transition: 0.4s;
+}
+.c3:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c4 {
+  grid-area: area4;
+  transition: 0.4s;
+  border-radius: 0px;
+}
+.c4:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c5 {
+  grid-area: area5;
+  transition: 0.4s;
+}
+.c5:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c6 {
+  grid-area: area6;
+  transition: 0.4s;
+}
+.c6:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c7 {
+  grid-area: area7;
+  transition: 0.4s;
+}
+.c7:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c8 {
+  grid-area: area8;
+  transition: 0.4s;
+}
+.c8:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c9 {
+  grid-area: area9;
+  transition: 0.4s;
+}
+.c9:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c10 {
+  grid-area: area10;
+  transition: 0.4s;
+}
+.c10:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c11 {
+  grid-area: area11;
+  transition: 0.4s;
+}
+.c11:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.c12 {
+  grid-area: area12;
+  transition: 0.4s;
+}
+.c12:hover {
+  transform: scale(1.05, 1.05);
+}
+
+.discografia {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  gap: 200px;
+}
+
+.parte1 {
+  margin: 0px 40px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.parte2 {
+  margin: 0px 40px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.doscerounonueve a {
+  text-decoration: none;
+  color: white;
+  padding: 150px;
+  background-color: brown;
+}
+.doscerounonueve a:hover {
+  filter: opacity(0.75);
+}
+
+.doscerodoscero a {
+  text-decoration: none;
+  color: white;
+  padding: 150px;
+  background-color: cadetblue;
+}
+.doscerodoscero:hover {
+  filter: opacity(0.75);
+}
+
+.doscerodosuno a {
+  text-decoration: none;
+  color: white;
+  padding: 150px;
+  background-color: crimson;
+}
+.doscerodosuno:hover {
+  filter: opacity(0.75);
+}
+
+.doscerodosdos a {
+  text-decoration: none;
+  color: white;
+  padding: 150px;
+  background-color: darkviolet;
+}
+.doscerodosdos:hover {
+  filter: opacity(0.75);
+}
+
+.doscerodostres a {
+  text-decoration: none;
+  color: white;
+  padding: 150px;
+  background-color: palevioletred;
+}
+.doscerodostres:hover {
+  filter: opacity(0.75);
+}
+
+@media screen and (max-width: 420px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+  }
+  .header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 12px;
+    margin-top: 30px;
+  }
+}
+main {
+  width: 100%;
+}
+
+@media screen and (min-width: 450px) {
+  section img {
+    width: 100%;
+    height: 900px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cards-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cards img {
+    width: 35%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .text-cards {
+    font-size: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .parte1, .parte2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .doscerounonueve, .doscerodoscero {
+    margin-bottom: 400px;
+  }
+  .doscerodosdos {
+    margin-bottom: 400px;
+  }
+  .doscerodostres {
+    margin-bottom: 100px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .primeras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .segundas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .terceras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .cuartas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .quintas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .sextas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .septimas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  .sesion-img {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  footer {
+    width: 420px;
+    justify-content: center;
+    align-items: center;
+  }
+  .redes {
+    width: 420px;
+  }
+  .redes img {
+    width: 45px;
+    height: 45px;
+  }
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+  display: flex;
+  justify-content: space-around;
+}
+.primeras .session, .segundas .session, .terceras .session, .cuartas .session, .quintas .session, .sextas .session, .septimas .session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.primeras .session a, .segundas .session a, .terceras .session a, .cuartas .session a, .quintas .session a, .sextas .session a, .septimas .session a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+.primeras .session img, .segundas .session img, .terceras .session img, .cuartas .session img, .quintas .session img, .sextas .session img, .septimas .session img {
+  width: 530px;
+  height: 280px;
+}
+
+/*# sourceMappingURL=style.css.map */

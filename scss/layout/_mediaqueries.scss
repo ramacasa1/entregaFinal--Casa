@@ -1,0 +1,153 @@
+
+//HEADER //
+
+@media screen and (max-width:420px){
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 12px;
+            margin-top: 30px;
+        }
+    }
+}
+
+//INDEX //
+
+main {
+    width: 100%;
+}
+
+@media screen and (min-width:450px){
+    section img {
+        width: 100%;
+        height: 900px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:420px){
+    .cards-section {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width:420px){
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        img {
+            width: 35%;
+        }
+    }
+}
+
+@media screen and (max-width:420px){
+    .text-cards {
+        font-size: 20px;
+        justify-content: center;
+        padding: 20px;
+    }
+}
+
+// SESSIONS //
+@media screen and (max-width:420px){
+    .parte1, .parte2 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .doscerounonueve, .doscerodoscero{
+        margin-bottom: 400px;
+    }
+
+    .doscerodosdos {
+        margin-bottom: 400px;
+    }
+
+    .doscerodostres {
+        margin-bottom: 100px;
+    }
+}
+
+// AÑOS //
+
+@media screen and (max-width:420px){
+    .primeras {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .segundas {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .terceras {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .cuartas {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .quintas {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .sextas {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .septimas {
+        @include sessions;
+        gap: 30px;
+    }
+
+    .sesion-img {
+        width: 10px;
+        height: 10px;
+    }
+
+}
+
+
+// FOOTER //
+
+@media screen and (max-width:420px){
+    
+    footer {
+        width: 420px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redes {
+        width: 420px;
+
+        img {
+            width: 45px;
+            height: 45px;
+        }
+    }
+
+
+}
+

@@ -1,0 +1,31 @@
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.primeras, .segundas, .terceras, .cuartas, .quintas, .sextas, .septimas {
+    
+    display: flex;
+    justify-content: space-around;
+
+    .session {
+        @include sessions;
+        
+        a {
+            @include sessions-a;
+            text-align: center;
+        }
+
+        img {
+            width: 530px;
+            height: 280px;
+        }
+
+    }
+
+}
+

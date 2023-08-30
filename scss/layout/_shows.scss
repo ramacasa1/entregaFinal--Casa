@@ -1,0 +1,35 @@
+
+img {
+    margin: 30px;
+    height: 800px;
+}
+
+
+
+.shows-america {
+    display: flex;
+    justify-content: space-evenly;
+
+    .america {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 30%;
+        justify-content: left;
+    }
+}
+
+.lugares {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-top: 45px;
+
+    .lugares-text {
+        color: white;
+        gap: 40px;
+    }
+}
