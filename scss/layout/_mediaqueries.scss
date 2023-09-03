@@ -62,7 +62,28 @@ main {
     }
 }
 
+// SHOWS //
+
+@media screen and (max-width:420px){
+    .shows-america {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+        }
+    }
+
+    .america {
+        align-items: center;
+        text-align: justify;
+    }
+}
+
 // SESSIONS //
+
 @media screen and (max-width:420px){
     .parte1, .parte2 {
         display: flex;
